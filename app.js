@@ -22,6 +22,6 @@ app.use("/api", require("./routes/home.route"));
 //   res.send("Hello World");
 // });
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(PORT || 3000, () => {
   console.log(`running on Port 3000  ${BASE_URL}:${PORT}`);
 });

@@ -1,0 +1,22 @@
+{
+  "name": "bolaji",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "app.js",
+  "scripts": {
+    "build": "node app.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "news",
+    "blog",
+    "article"
+  ],
+  "author": "korede",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2"
+  }
+}
